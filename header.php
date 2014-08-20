@@ -6,17 +6,19 @@ $current_page_name = basename($_SERVER['REQUEST_URI']);
 <head>
 	<title>Outbox</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/media.css">
+	<script type="text/javascript" src="js/jquery.js"></script>
 </head>
 <body>
 <div class="container-fluid">
 	<header>
 		<div class="row">
-			<div class="col-lg-2" id="logo">
+			<div class="col-lg-2 col-md-2 col-sm-2 col-xs-12" id="logo">
 				<a href="index.php">
 					<img src="images/logo.png" alt="">
 				</a>
 			</div>
-			<div class="col-lg-offset-6 col-lg-4" id="menu">
+			<div class="col-lg-offset-6 col-md-offset-6 col-sm-offset-4 col-lg-4 col-md-4 col-sm-6 col-xs-12" id="menu">
 				<ul>
 					<?php 
 					if ($current_page_name == "portfolio.php") {

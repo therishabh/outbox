@@ -1,0 +1,190 @@
+ /*Little larger screen*/
+/* smartphones, iPhone, portrait 480x320 phones */
+@media only screen and (min-width: 240px) and (max-width: 479px) {
+	.home-1-img img {
+		width: 160px;
+		height: 160px;
+	}
+}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	.home-1-img img {
+		width: 140px;
+		height: 140px;
+	}
+}
+
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	.home-1-img img {
+		width: 142px;
+		height: 142px;
+	}
+	#logo img {
+		width: 80px;
+		height: 80px;
+	}
+	#menu ul a li {
+		margin-top: 28px;
+	}
+	.home-1 {
+		margin-top: 70px;
+	}
+	h1 {
+		font-size: 34px;
+	}
+	h6{
+		font-size: 18px;
+	}
+	.home-1-text {
+		font-size: 14px;
+	}
+	.home-3-img img {
+		height: 140px;
+		width: 140px;
+	}
+	.home-3 {
+		margin-top: 30px;
+	}
+	#home-3-image-1 .home-3-img {
+		margin-left: -26px;
+	}
+	#home-3-image-2 .home-3-img{
+		margin-left: -26px;
+	}
+	#home-3-image-3 .home-3-img {
+		margin-left: -26px;
+	}
+	#home-3-image-4 .home-3-img {
+		margin-left: -26px;
+	}
+	#home-3-image-5 .home-3-img{
+		margin-left: -26px;
+	}
+	#home-3-content-4{
+		margin-top: -35px;
+	}
+	.home-3 .right {
+		margin-top: -11px;
+		margin-left: 35px;
+	}
+	.home-3-div h2 {
+		font-size: 21px;
+	}
+	.home-3-content {
+		font-size: 13px;
+	}
+	.home-3-div:nth-child(4){
+		margin-bottom: 0px;
+	}
+	.home-3-div:nth-child(5){
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+	.home-3-div:nth-child(6){
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+	#home-3-content-2 {
+		margin-top: -22px;
+		padding-left: 0px;
+	}
+	#home-3-image-5 a {
+		height: 135px;
+		width: 139px;
+		background-size: 135px;
+	}
+	#home-3-image-5 a:hover{
+		background-size: 135px;
+		background-position: 3px;
+	}
+	#home-3-image-5 a:active{
+		background-size: 135px;
+		background-position: 3px;
+	}
+	#home-3-content-5{
+		margin-top: 14px;
+	}
+	.footer-logo {
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
+}
+
+@media only screen and (min-width: 958px) and (max-width: 1024px) {
+	.home-1 {
+		margin-top: 80px;
+	}
+	.home-1-img img {
+		width: 160px;
+		height: 160px;
+	}
+	.home-1-text {
+		font-size: 15px;
+	}
+	h1{
+		font-size: 40px;
+	}
+	h6{
+		font-size: 20px;
+	}
+	.home-3 {
+		margin-top: 30px;
+	}
+	#home-3-image-1 .home-3-img {
+		margin-left: -13px;
+	}
+	#home-3-image-2 .home-3-img{
+		margin-left: -13px;
+	}
+	#home-3-image-3 .home-3-img {
+		margin-left: -13px;
+	}
+	#home-3-image-4 .home-3-img {
+		margin-left: -13px;
+	}
+	#home-3-image-5 .home-3-img{
+		margin-left: -13px;
+	}
+	#home-3-content-4{
+		margin-top: -35px;
+	}
+	.home-3-img img {
+		height: 150px;
+		width: 150px;
+	}
+	.home-3 .right {
+		margin-top: 0px;
+	}
+	.home-3-div h2 {
+		font-size: 26px;
+	}
+	.home-3-content {
+		font-size: 14px;
+	}
+	#home-3-content-2 {
+		margin-top: -15px;
+	}
+	#home-3-image-5 a {
+		height: 145px;
+		width: 145px;
+		background-size: 142px;
+	}
+	#home-3-image-5 a:hover{
+		background-size: 142px;
+		background-position: 3px;
+	}
+	#home-3-image-5 a:active{
+		background-size: 142px;
+		background-position: 3px;
+	}
+	#home-3-content-5{
+		margin-top: 14px;
+	}
+	.footer-logo {
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
+}
