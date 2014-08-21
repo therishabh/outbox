@@ -175,7 +175,11 @@ h6{
 	margin-left: -7px;
 }
 #home-3-image-5 .home-3-img{
-	margin-left: -7px;
+	margin-left: -6px;
+}
+#home-3-image-5 .home-3-img img{
+	height: 183px;
+	width: 183px;
 }
 #home-3-content-4{
 	margin-top: -26px;
@@ -183,27 +187,10 @@ h6{
 #home-3-content-5{
 	margin-top: 27px;
 }
-#home-3-image-5 a{
-	display: block;
-	height: 190px;
-	width: 190px;
-	background: url(../images/LetBuildTogether-Button-normal.png);
-	background-repeat: no-repeat;
-	background-size: 180px;
-	background-position: 3px;
+#home-3-image-5 .img_2, #home-3-image-5 .img_3{
+	display: none;
 }
-#home-3-image-5 a:hover{
-	background:url(../images/LetBuildTogether-Button-MouseOver.png);
-	background-repeat: no-repeat;
-	background-size: 180px;
-	background-position: 3px;
-}
-#home-3-image-5 a:active{
-	background:url(../images/LetBuildTogether-Button-pressed.png);
-	background-repeat: no-repeat;
-	background-size: 180px;
-	background-position: 3px;
-}
+
 .home-3 .right{
 	margin-left: 21px;
 	margin-top: 15px;
@@ -225,6 +212,10 @@ h6{
 .home-3-content{
 	font-family: 'font_7';
 	font-size: 17px;
+	/*text-align: justify;*/
+}
+.float-right{
+	float: right;
 }
 
 footer{
@@ -237,24 +228,8 @@ footer{
 .footer-logo img{
 	height: 100px;
 	width: 100px;
-	-webkit-transform: scale(1);
-	-moz-transform: scale(1);
-	-ms-transform: scale(1);
-	-o-transform: scale(1));
-	transform: scale(1);
-	-webkit-transition: all 400ms cubic-bezier(0.250, 0.460, 0.450, 0.940);
-	-moz-transition: all 400ms cubic-bezier(0.250, 0.460, 0.450, 0.940);
-	-ms-transition: all 400ms cubic-bezier(0.250, 0.460, 0.450, 0.940);
-	-o-transition: all 400ms cubic-bezier(0.250, 0.460, 0.450, 0.940);
-	transition: all 400ms cubic-bezier(0.250, 0.460, 0.450, 0.940);
 }
-.footer-logo img:hover{
-	-moz-transform: scale(1.2);
-	-webkit-transform: scale(1.2);
-	-o-transform: scale(1.2));
-	-ms-transform: scale(1.2);
-	transform: scale(1.2);
-}
+
 .footer-bar{
 	background: #414141;
 	color: #fff;
@@ -278,12 +253,13 @@ footer{
 	margin-bottom: 60px;
 }
 .portfolio-div{
-	margin-top: 50px;
+	margin-top: 80px;
 }
 .portfolio-img{
-	text-align: center;
+	text-align: right;
 }
-.portfolio-img img{
+.portfolio-img img.grownout{
+	height: 30px;
 	
 }
 .partnerwithus ul{
@@ -316,4 +292,5 @@ footer{
 }
 .partner-3 p{
 	font-size: 18px;
+	font-family: 'font_2';
 }

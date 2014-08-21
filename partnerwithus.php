@@ -2,11 +2,11 @@
 <div class="partnerwithus">
 	<div class="row">
 		<div class="col-lg-8 col-centered">
-			<h1 class="text-center">OUR INVESTMENT PROCESS</h1>
+			<h1 class="text-center partner-heading" >OUR INVESTMENT PROCESS</h1>
 		</div>
 	</div>
 	<div class="row">
-		<div class="col-lg-6 col-centered partner-1">
+		<div class="col-lg-6 col-md-8 col-sm-8 col-centered partner-1">
 	
 			<ul>
 				<li>Team Identification</li>
@@ -22,7 +22,7 @@
 	<div class="row">
 		<div class="col-lg-10 col-centered">
 		<div class="partner-2">
-			If you are working on an idea that has a potential for <b>making it big,</b> do not hesitate to <b><span class="green">give us a shout.</span></b>
+			If you are working on an idea that has a potential for <span class="bold">making it big,</span> do not hesitate to <b><span class="green bold">give us a shout.</span></b>
 		</div>
 		</div>
 	</div>
